@@ -1,4 +1,4 @@
-package intro;
+package chapters.intro;
 
 public class Deer {
     public Deer() {

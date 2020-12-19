@@ -1,4 +1,4 @@
-package intro;
+package chapters.intro;
 
 public class Cougar extends Puma{
     public static void main(String[] args) {

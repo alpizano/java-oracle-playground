@@ -1,4 +1,4 @@
-package intro;
+package chapters.intro;
 
 public class Amphibian implements CanSwim {
     @Override

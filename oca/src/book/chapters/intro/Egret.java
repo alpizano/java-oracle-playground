@@ -1,4 +1,4 @@
-package intro;
+package chapters.intro;
 
 public class Egret {
     private String color;
