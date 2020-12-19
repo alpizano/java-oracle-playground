@@ -1,4 +1,4 @@
-package chapters.two;
+package book.chapters.two;
 
 import java.util.function.Predicate;
 

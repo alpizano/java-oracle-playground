@@ -1,6 +1,4 @@
-package chapters.one;
-
-import java.sql.SQLOutput;
+package book.chapters.one;
 
 public class instanceinit {
     int age;

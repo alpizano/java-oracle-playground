@@ -1,4 +1,4 @@
-package chapters.two;
+package book.chapters.two;
 
 public class _Assessment {
     //#1. A, D

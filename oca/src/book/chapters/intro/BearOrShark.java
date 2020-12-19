@@ -1,4 +1,4 @@
-package chapters.intro;
+package book.chapters.intro;
 
 public class BearOrShark {
     public static void main(String[] args) {

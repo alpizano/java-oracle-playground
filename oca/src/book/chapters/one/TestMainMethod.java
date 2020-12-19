@@ -1,4 +1,4 @@
-package chapters.one;
+package book.chapters.one;
 
 public class TestMainMethod {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chapters.five;
+package book.chapters.five;
 
 class Mammal {
     public Mammal(int age) {

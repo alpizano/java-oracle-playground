@@ -1,4 +1,4 @@
-package chapters.three;
+package book.chapters.three;
 
 public class ArrayMethods {
 }

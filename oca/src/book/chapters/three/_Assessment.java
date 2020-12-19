@@ -1,4 +1,4 @@
-package chapters.three;
+package book.chapters.three;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

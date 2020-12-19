@@ -1,4 +1,4 @@
-package chapters.five;
+package book.chapters.five;
 
 public interface InterfaceTest {
     void getInt();

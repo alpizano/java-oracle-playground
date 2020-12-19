@@ -1,4 +1,4 @@
-package chapters.five;
+package book.chapters.five;
 
 public abstract class Animal {
     protected int age=33;

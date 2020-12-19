@@ -1,4 +1,4 @@
-package chapters.five;
+package book.chapters.five;
 
 public abstract class Bird {
     private void fly() {

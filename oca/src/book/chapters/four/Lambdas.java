@@ -1,4 +1,4 @@
-package chapters.four;
+package book.chapters.four;
 
 public class Lambdas {
 }

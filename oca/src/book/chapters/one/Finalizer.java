@@ -1,6 +1,4 @@
-package chapters.one;
-
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+package book.chapters.one;
 
 public class Finalizer {
     int i1 = 1_234;

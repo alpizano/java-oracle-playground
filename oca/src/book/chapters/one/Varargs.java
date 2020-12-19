@@ -1,4 +1,4 @@
-package chapters.one;
+package book.chapters.one;
 
 /**
  * Hello world!

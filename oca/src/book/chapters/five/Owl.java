@@ -1,4 +1,4 @@
-package chapters.five;
+package book.chapters.five;
 
 public class Owl implements Nocturnal {
     public boolean isBlind() {

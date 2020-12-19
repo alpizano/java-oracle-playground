@@ -1,4 +1,4 @@
-package chapters.four;
+package book.chapters.four;
 
 import java.util.ArrayList;
 import java.util.List;

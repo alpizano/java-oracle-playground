@@ -1,4 +1,4 @@
-package chapters.five;
+package book.chapters.five;
 
 public class _Assessment {
     // #1. B. public, (not abstract post+ java  8 b/c default/static methods)

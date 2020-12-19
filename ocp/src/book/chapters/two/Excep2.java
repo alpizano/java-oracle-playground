@@ -1,4 +1,4 @@
-package chapters.two;
+package book.chapters.two;
 
 public class Excep2 {
     Excep3 excep3;

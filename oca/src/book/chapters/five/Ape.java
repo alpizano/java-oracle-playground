@@ -1,4 +1,4 @@
-package chapters.five;
+package book.chapters.five;
 
 public class Ape extends Primate{
     String species = "Ape";

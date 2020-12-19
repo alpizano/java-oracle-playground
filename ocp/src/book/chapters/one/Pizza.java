@@ -1,4 +1,4 @@
-package chapters.one;
+package book.chapters.one;
 
 public enum Pizza {
     PEPPERONNI(7.99) {

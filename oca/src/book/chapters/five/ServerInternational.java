@@ -1,4 +1,4 @@
-package chapters.five;
+package book.chapters.five;
 
 // CHILD CLASS
 public class ServerInternational extends ServerDomestic {

@@ -1,4 +1,4 @@
-package chapters.one;
+package book.chapters.one;
 
 public class AnonInnerClass {
     public static void main(String[] args) {

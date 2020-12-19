@@ -1,4 +1,4 @@
-package chapters.intro;
+package book.chapters.intro;
 
 class Chicken {
 }
