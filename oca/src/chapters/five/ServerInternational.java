@@ -1,9 +1,9 @@
 package chapters.five;
 
 // CHILD CLASS
-public class EdgeGwInternational extends EdgeGwDomestic {
-    protected String edgeGwUid = "2M290702XY";
-    protected String networkId = "107676";
+public class ServerInternational extends ServerDomestic {
+    protected String serverUid = "111100000";
+    protected String networkId = "55555";
     protected String anotherVar = "International";
     private String test = "inChild";
 
@@ -13,8 +13,8 @@ public class EdgeGwInternational extends EdgeGwDomestic {
     }
 
     @Override
-    public EdgeGw buildHttpRequest() {
-        System.out.println(super.edgeGwUid);
+    public Server buildHttpRequest() {
+        System.out.println(super.serverUid);
         return super.buildHttpRequest();
     }
 
@@ -27,12 +27,10 @@ public class EdgeGwInternational extends EdgeGwDomestic {
     }
 
     public static void main(String[] args) {
-        EdgeGwInternational edgegw = new EdgeGwInternational();
+        ServerInternational myServer = new ServerInternational();
 
-
-
-        EdgeGw answer = edgegw.buildHttpRequest();
-        System.out.println(answer.edgeGwUid);
+        Server answer = myServer.buildHttpRequest();
+        System.out.println(answer.serverUid);
         System.out.println(answer.networkId);
         System.out.println(answer.test);
 
