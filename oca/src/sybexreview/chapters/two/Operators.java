@@ -19,5 +19,12 @@ public class Operators {
 
         // can't make boolean to string
         //String message = false;
+
+        // XOR
+        boolean something = true ^ false;
+        System.out.println(something);
+
+        // * and % same precedence
+
     }
 }
