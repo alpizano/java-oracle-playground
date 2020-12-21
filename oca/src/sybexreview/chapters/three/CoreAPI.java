@@ -1,9 +1,12 @@
 package sybexreview.chapters.three;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Month;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+import java.util.*;
 
 public class CoreAPI {
     // doesn't compile
@@ -69,9 +72,46 @@ public class CoreAPI {
         // won't compile
         //arrayList1.add("hello");
 
+        List<Integer> intList = Arrays.asList(10,4,-1,5);
+        Collections.sort(intList);
+        // Convert ArrayList<Integer> to Integer[]
+        Integer[] array = intList.toArray(new Integer[4]);
+        System.out.println(array[0]);
 
+        String[] names = {"A", "B", "C"};
+        // convert from String[] to ArrayList<String>
+        List<String> strList = Arrays.asList(names);
 
+        List<Integer> testList = new ArrayList<>();
 
+        testList.add(null);
+        Integer.parseInt("5");
+        Integer.valueOf("6");
 
+        LocalDate date = LocalDate.parse("2018-04-30", DateTimeFormatter.ISO_LOCAL_DATE);
+        date = date.plusDays(2);
+        // date.plusHours(3);
+        System.out.println(date.getYear() + " " + date.getMonth() + " " + date.getDayOfMonth());
+
+        LocalDate date2 = LocalDate.of(2018, Month.APRIL, 30);
+        System.out.println(date2.getYear() + " " + date2.getMonth() + " "
+                + date2.getDayOfMonth());
+
+        LocalDateTime d = LocalDateTime.of(2015, 5, 10, 11, 22, 33);
+        Period p = Period.of(1, 2, 3);
+        d = d.minus(p);
+        // ofLocalizedDateTime
+        // FULL = exception
+        // LONG = exception
+        // MEDIUM = Mar 7, 2014 11:22:33 AM
+        // SHORT = 3/7/14 11:22 AM
+
+        // ofLocalizedTime
+        // LONG = exception
+        // MEDIUM = 11:22:33 AM
+        // SHORT = 11:22 AM
+        DateTimeFormatter f = DateTimeFormatter.ofLocalizedTime(FormatStyle.MEDIUM);
+        //DateTimeFormatter f = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL);
+        System.out.println(d.format(f));
     }
 }
