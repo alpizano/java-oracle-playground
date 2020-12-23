@@ -10,7 +10,7 @@ public class Overloading {
 
     public static void staticMethod() {
        // this.doubleNum = 5.0;
-        this.staticDoubleNum = 14.00;
+        staticDoubleNum = 14.00;
     }
 
     public static void main(String[] args) {
