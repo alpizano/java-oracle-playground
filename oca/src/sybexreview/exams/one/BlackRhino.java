@@ -1,6 +1,8 @@
 package sybexreview.exams.one;
 
 public class BlackRhino extends Rhinoceros {
+    private static int count;
+
     public BlackRhino() {
         this(5);
         System.out.println("3");
@@ -12,7 +14,9 @@ public class BlackRhino extends Rhinoceros {
     }
 
         public static void main(String[] args) {
+        count++;
         BlackRhino blackRhino = new BlackRhino();
+            System.out.println(1 * -1);
     }
 }
 
