@@ -33,5 +33,13 @@ public class Test {
         System.out.println(myList.contains(false));
         System.out.println(myList.contains(new Boolean(false)));
         System.out.println(myList.contains(1));
+
+        StringBuilder strB1 = new StringBuilder("Hi");
+        StringBuilder strB2 = new StringBuilder("Hi");
+        System.out.println(strB1.equals(strB2));
+
+//        while(false) {
+//            System.out.println("do something");
+//        }
     }
 }
