@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Creating {
+public class CreatingStreams {
     public static void main(String[] args) {
         // FINITE STREAMS
         // creating
