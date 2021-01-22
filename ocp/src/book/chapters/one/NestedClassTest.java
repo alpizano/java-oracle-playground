@@ -22,5 +22,9 @@ public class NestedClassTest {
         NestedClassTest nestedClassTest = new NestedClassTest();
         //Inner inner = nestedClassTest.new Inner();
         NestedClassTest.Inner.go();
+
+        // can still instantiate it
+        Inner inner = new Inner();
+
     }
 }
